@@ -1,0 +1,42 @@
+name: gmail_alarm
+description: Production-ready Gmail monitoring alarm app with enterprise-grade reliability
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Google Sign-In & Gmail API
+  google_sign_in: ^6.1.5
+  googleapis: ^11.4.0
+  
+  # Background Service
+  flutter_background_service: ^5.0.5
+  
+  # Alarm & Notifications
+  alarm: ^3.0.7
+  flutter_local_notifications: ^17.0.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # HTTP
+  http: ^1.1.0
+  
+  # Utilities
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
