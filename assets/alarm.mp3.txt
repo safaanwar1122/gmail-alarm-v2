@@ -1,0 +1,8 @@
+PLACEHOLDER: Add your alarm sound here (alarm.mp3)
+
+For testing, you can use any short audio file (MP3 format).
+Example alarm sounds can be downloaded from:
+- https://freesound.org/
+- https://www.zapsplat.com/
+
+The alarm plugin will loop this sound when triggered.
